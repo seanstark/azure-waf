@@ -1,0 +1,9 @@
+AzureDiagnostics
+| where Category == "FrontDoorWebApplicationFirewallLog"
+| extend matchVariableName = tostring(parse_json(details_matches_s)[0].matchVariableName)
+| extend matchVariableValue = tostring(parse_json(tostring(parse_json(details_matches_s)[0].matchVariableValue)))
+| where matchVariableName contains "CookieValue" or isempty(matchVariableName)
+| extend CookieName = split(matchVariableName, ":", 1)
+| extend CookieValue = matchVariableValue
+//| project TimeGenerated, Resource, requestUri_s, host_s, policy_s, policyMode_s, ruleName_s, details_msg_s, action_s
+//| where action_s == "block"
