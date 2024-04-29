@@ -8,7 +8,7 @@
 - [New Managed Rule Set on Azure WAF for Front Door Premium - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/azure-network-security-blog/new-managed-rule-set-on-azure-waf-for-front-door-premium/ba-p/2628959)
 - [Enhancements to Azure WAF now in General Availability - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/azure-network-security-blog/enhancements-to-azure-waf-now-in-general-availability/ba-p/3345856)
 - [Detect traffic anomalies and auto-mitigate spikes with Azure WAF on Microsoft Azure Front Door - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/azure-network-security-blog/detect-traffic-anomalies-and-auto-mitigate-spikes-with-azure-waf/ba-p/3217404)
-- [Azure-Network-Security/Azure WAF at master · Azure/Azure-Network-Security (github.com)](https://github.com/Azure/Azure-Network-Security/tree/master/Azure%20WAF)
+- [Azure WAF GitHub](https://github.com/Azure/Azure-Network-Security/tree/master/Azure%20WAF)
 
 **Videos**
 
